@@ -27,6 +27,8 @@ jobs:
       uses: Borales/actions-yarn@v2.1.0
       with:
         cmd: install
+    - name: Run Test
+      run: npm run test
     - name: Create Build
       run: yarn build
     - name: installing Surge
