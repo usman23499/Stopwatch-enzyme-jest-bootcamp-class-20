@@ -1,0 +1,16 @@
+:root {
+	background-color: rgb(68, 149, 255);
+}
+
+body, div, p {
+	margin: 2;
+	padding: 2;
+}
+
+@media screen and (max-width: 1024px) {
+	:root {
+		--timer-height: 100%;
+		--timer-width: 100%;
+    --button-text-size: 4em;
+}
+}
